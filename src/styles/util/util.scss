@@ -1,0 +1,21 @@
+@forward 'dark';
+@forward 'breakpoints';
+@forward 'rounded';
+@forward 'shadows';
+
+@mixin content-width {
+    max-width: 1100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+@mixin content-height {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@mixin content {
+    @include content-width;
+    @include content-height;
+}

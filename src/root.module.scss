@@ -1,0 +1,13 @@
+@use '~/styles/theme.scss' as *;
+
+
+.main-content {
+  @include content;
+  margin-top: $header-height;
+  // @include shadow-lg;
+  // @include rounded(xl);
+}
+
+.background {
+  background-color: #923333;
+}
