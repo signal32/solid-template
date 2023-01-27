@@ -1,0 +1,6 @@
+[submodule "deps/bacon"]
+	path = deps/bacon
+	url = github:signal32/bacon
+[submodule "deps/scss-utils"]
+	path = deps/scss-utils
+	url = github:signal32/scss-utils
